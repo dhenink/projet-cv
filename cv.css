@@ -1,0 +1,160 @@
+body {
+	background-attachment: fixed;
+	background-image: url(/home/kevin/Images/03094_800x480.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 0px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.navi {
+	background-color: grey;
+	border-color: yellow;
+	border-radius: 20px;
+	border-width: 4px;
+	height:50px;
+	margin-right: 10px;
+	margin-top: 20px;
+	width:150px;
+}
+
+.navi:hover {
+	background-color: yellow;
+}
+
+h1 {
+	color: white;
+	display: inline-block;
+	position: absolute;
+	left: 810px;
+	top: 130px;
+}
+
+nav {
+	background-image: url(/home/kevin/Images/bannire-de-vitesses-6226607.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius: 40px;
+	border: solid;
+	border-color: yellow;
+	height: 90px;
+}
+
+nav li {
+	display: inline-block;
+	color: black;
+}
+
+nav ul {
+	margin-top: 0px;
+	text-align: center;
+}
+
+.photo img {
+	border-radius: 100px;
+	border: solid;
+	border-color: yellow;
+	height:200px;
+}
+
+.photo {
+	display: inline-block;
+	position: absolute;
+	top: 180px;
+	left: 120px;
+}
+
+.bande {
+	background-image: url(/home/kevin/Images/03094_800x480.jpg);
+	border-left: solid yellow 3px;
+	border-right: solid yellow 3px;
+	position: absolute;
+	height: 100%;
+	width: 285px;
+	left: 80px;
+}
+
+.contact-list {
+	
+	color: white;
+	display: inline-block;
+	position: absolute;
+	left: 90px;
+	top: 420px;
+	width: 290px;
+	height: 360px;
+}
+
+.contact {
+	text-align: center;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+.section {
+	display: inline-block;
+	color: white;
+	width: 1000px;
+	height: 350px;
+	position: absolute;
+	left: 400px;
+	top: 300px;
+}
+
+.titre {
+	text-align: center;
+	margin-bottom: 50px;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 24px;
+}
+
+.description {
+	text-align: justify;
+	width: 870px;
+	position: absolute;
+	left: 110px;
+	height: 130px;
+	font-size: 20px;
+	font-family: Arial;
+}
+
+.vert {
+	color: black;
+	background-color: grey;
+	border-color: yellow;
+	border-radius: 20px;
+	border-width: 4px;
+	height: 70px;
+	margin-top: 20px;
+	width: 190px;
+	position: relative;
+	left: 40px;
+}
+
+.link img {
+	height: 40px;
+	position: relative;
+	top: 600px;
+	left: 1400px;
+}
+
+.github img {
+	height: 40px;
+	position: relative;
+	top: 556px;
+	left: 1350px;
+}
+
+.colonne {
+	display: inline-block;
+	margin-right: 160px;
+}
+
+.gras {
+	font-weight: bold;
+}

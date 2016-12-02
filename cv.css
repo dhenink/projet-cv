@@ -1,8 +1,21 @@
+html, body {
+	height: 100%;
+	padding: 0;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
 body {
 	background-attachment: fixed;
 	background-image: url(/home/kevin/Images/03094_800x480.jpg);
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	margin: 0px;
 }
 
@@ -36,7 +49,6 @@ h1 {
 
 nav {
 	background-image: url(/home/kevin/Images/bannire-de-vitesses-6226607.jpg);
-	background-repeat: no-repeat;
 	background-size: 100%;
 	border-radius: 40px;
 	border: solid;
@@ -64,7 +76,7 @@ nav ul {
 .photo {
 	display: inline-block;
 	position: absolute;
-	top: 180px;
+	top: 110px;
 	left: 120px;
 }
 
@@ -73,33 +85,28 @@ nav ul {
 	border-left: solid yellow 3px;
 	border-right: solid yellow 3px;
 	position: absolute;
-	height: 100%;
+	height: calc(100% - 90px);
 	width: 285px;
 	left: 80px;
 }
 
 .contact-list {
-	
 	color: white;
 	display: inline-block;
 	position: absolute;
 	left: 90px;
-	top: 420px;
+	top: 330px;
 	width: 290px;
-	height: 360px;
 }
 
 .contact {
 	text-align: center;
-	margin-bottom: 30px;
 	font-weight: bold;
 }
 
 .section {
 	display: inline-block;
 	color: white;
-	width: 1000px;
-	height: 350px;
 	position: absolute;
 	left: 400px;
 	top: 300px;
@@ -111,43 +118,58 @@ nav ul {
 	font-weight: bold;
 	font-family: Arial;
 	font-size: 24px;
+	position: relative;
+	left: 330px;
 }
 
 .description {
 	text-align: justify;
 	width: 870px;
 	position: absolute;
-	left: 110px;
+	left: 30px;
 	height: 130px;
 	font-size: 20px;
 	font-family: Arial;
 }
 
-.vert {
+.vertical {
 	color: black;
 	background-color: grey;
 	border-color: yellow;
 	border-radius: 20px;
 	border-width: 4px;
 	height: 70px;
-	margin-top: 20px;
+	margin-top: 10px;
 	width: 190px;
 	position: relative;
 	left: 40px;
 }
 
-.link img {
+.linkedin {
 	height: 40px;
-	position: relative;
-	top: 600px;
-	left: 1400px;
+	display: inline-block;
+}
+
+.linkedin img{
+	height: 40px;
+	display: inline-block;
+}
+
+.github {
+	height: 40px;
+	display: inline-block;
 }
 
 .github img {
 	height: 40px;
+	display: inline-block;
+}
+
+.link {
+	display: inline-block;
 	position: relative;
-	top: 556px;
-	left: 1350px;
+	top: 470px;
+	left: 1200px;
 }
 
 .colonne {
